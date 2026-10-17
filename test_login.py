@@ -17,6 +17,9 @@ class TestLogin(unittest.TestCase):
     def test_empty_password(self):
         self.assertFalse(login("student01", ""))
 
+    def test_username_with_wrong_case(self):
+        self.assertFalse(login("Student01", "AttendX@123"))
+
 
 if __name__ == "__main__":
     unittest.main()
