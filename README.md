@@ -44,3 +44,8 @@ python -m unittest discover -v
 ## Purpose
 Git and GitHub are used to track changes, maintain commit history,
 and share test scripts among QA team members.
+
+## Version Control
+
+This project uses Git for local version control and GitHub
+for remote storage and collaboration.
